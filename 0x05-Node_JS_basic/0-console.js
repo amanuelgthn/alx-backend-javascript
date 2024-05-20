@@ -1,6 +1,5 @@
-const displayMessage = (Message) => {
+function displayMessage(data) {
+  console.log(data);
+}
 
-    console.log(Message);
-};
-
-export default displayMessage;
+module.exports = displayMessage;
